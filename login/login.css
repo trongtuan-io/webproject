@@ -1,0 +1,82 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0b3a66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.auth_content_inner {
+  background: #fff;
+  width: 350px;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.auth_form {
+  display: grid;
+  gap: 10px;
+}
+
+.form_input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.form_input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* Nút */
+.btn_sign_up {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn_sign_up:hover {
+  background: #1d4ed8;
+}
+
+/* Link */
+.forgot_password,
+.auth_text a {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot_password:hover,
+.auth_text a:hover {
+  text-decoration: underline;
+}
+
+.auth_text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
