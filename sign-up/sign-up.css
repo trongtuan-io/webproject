@@ -1,0 +1,78 @@
+/* Reset cơ bản */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0b3a66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Khung ngoài */
+.auth_content_inner {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Ô nhập liệu */
+.form_input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form_input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* Nút */
+.btn_sign_up {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn_sign_up:hover {
+  background: #1d4ed8;
+}
+
+/* Link */
+.forgot_password, .auth_text a {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot_password:hover,
+.auth_text a:hover {
+  text-decoration: underline;
+}
+
+.auth_text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
